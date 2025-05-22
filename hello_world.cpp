@@ -1,10 +1,10 @@
+// Test program
 #include <iostream>
-#include <string>  
-using namespace std; 
+#include <string>
 int main() {
-    string name;
-    cout << "Enter your name: ";
-    cin >> name;
-    cout << "Hello world from " << name << endl;
-    return 0; 
+    std::string name; // Name of user
+    std::cout << "Enter your name: ";
+    std::cin >> name;
+    std::cout << "Hello world from " << name << std::endl;
+    return 0; // End of program
 }
